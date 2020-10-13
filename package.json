@@ -1,0 +1,19 @@
+{
+    "name": "grinechote",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "sass": "sass ./sass/main.scss:./public/css/style.css -w --style compressed",
+         "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
+
+
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Sheenavonbee/GRINECHOTE.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "browserslist": "last 4 versions"
+}
