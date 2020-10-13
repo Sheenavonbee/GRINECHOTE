@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AACA,KAAM;EACF,gBAAgB,ECFP,IAAI",
-"sources": ["../../sass/layout/_body.scss","../../sass/utils/_variables.scss"],
-"names": [],
-"file": "main.css"
-}
