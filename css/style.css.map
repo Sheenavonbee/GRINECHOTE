@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,IAAK,CACD,gBAAgB,CCDH,OAAO,CCAxB,eAAgB,CACZ,KAAK,CAAE,IAAI,CACX,gBAAgB,CDDE,OAAO,CCEzB,OAAO,CAAE,IAAI,CAGjB,EAAG,CACC,OAAO,CAAE,MAAM,CCPnB,MAAO,CACH,KAAK,CAAE,IAAI,CACX,gBAAgB,CFDE,OAAO",
+"mappings": "AAAA,IAAK,CACD,gBAAgB,CCDH,OAAO,CCAxB,eAAgB,CACZ,KAAK,CAAE,IAAI,CACX,gBAAgB,CDDE,OAAO,CCEzB,OAAO,CAAE,IAAI,CAGjB,EAAG,CACC,OAAO,CAAE,MAAM,CCPnB,MAAO,CACH,KAAK,CAAE,IAAI,CACX,gBAAgB,CFDE,OAAO,CEI7B,IAAK,CACD,OAAO,CAAE,EAAE",
 "sources": ["../sass/layout/_body.scss","../sass/utils/_variables.scss","../sass/components/_header.scss","../sass/components/_footer.scss"],
 "names": [],
 "file": "style.css"
