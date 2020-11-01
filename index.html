@@ -5,7 +5,6 @@
     <meta charset="utf-8 /">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
     <meta name="description" content="lifestyle écoresponsable & vegan, recettes cosmétiques & diy produits ménagers maisons ">
     <meta name="keywords" content="recette cosmétiques maison, diy produits ménagers, blog écoresponsable, vegan">
     <title>GRINECHOTE</title>
@@ -15,17 +14,18 @@
     <a name="top"></a>
     <header class=" accueil_header ">
 
-        <h1 class="accueil_titre "></h1>GRINECHOTE</h1>
-        <div class="mini_bio_popup ">
-            <span class="mini_bio_hover ">D'où elle sort celle là?
-            <span class="mini_bio "> Elle est végétalienne depuis cinq ans, elle a décidé qu'elle prendrait soin d'elle-même
-                <br/> et de sa famille avec des produits d'origine végétale et naturelle autant que faire se peut.
-                <br/> Elle est humaine et imparfaite, elle est développeuse web junior, et elle a réalisé ce blog toute seule comme
-                <br/> une grande avec son html et son Scss. Oué m'dame.
-            </span></span>
-        </div>
-        <div class="nav ">
-            <ul>
+        <h1>GRINECHOTE</h1>
+
+        <section class="introduction">
+            <div class="trigger_modal">
+
+                <h2 class="trigger">
+                    <a href="">Mais d 'où elle sort celle là?<span class ="modal"><img  src="./image/pop_up.jpg " alt="photo d 'un graphique " /></span></a></h2>
+
+            </div>
+        </section>
+        <section class="header_nav ">
+            <ul class="nav">
                 <li>
                     <a href="./bioutifoule.html ">Bioutifoule</a>
                 </li>
@@ -36,17 +36,17 @@
                     <a href="./contact.html ">Contact</a>
                 </li>
             </ul>
-        </div>
+        </section>
     </header>
-    <main>
+    <main class="accueil_main ">
         <section class="cosmetiques ">
-            <a href="bioutifoule.html " aria-label="Lien vers la page dédiée aux cosmétiques qui s 'appelle Bioutifoule">
+            <a href="bioutifoule.html " aria-label="Lien vers la page dédiée aux cosmétiques qui s 'appelle Bioutifoule ">
                 <h2>Bioutifoule</h2>
                 <p>Fabriquer mon dentifrice? N 'importe quoi.</p>
             </a>
         </section>
-        <section class="produits_ménagers">
-            <a href="vericline.html" aria-label="Lien vers la page dédiée au produits ménagers qui s'appelle Vericline">
+        <section class="produits_ménagers ">
+            <a href="vericline.html " aria-label="Lien vers la page dédiée au produits ménagers qui s 'appelle Vericline">
                 <h2>Vericline</h2>
                 <p>La vaisselle au savon de Marseille, pi quoi encore?</p>
             </a>
@@ -56,8 +56,11 @@
     </main>
 
     <footer>
-        <a class="back_to_top " href="#top "><i class="fas fa-leaf fa-2x"></i></a>
+        <div class="footer_leaf_icon">
+            <a class="back_to_top " href="#top "><img class="leaf" src="./image/leaf.jpg" alt="dessin icone feuille"></a>
+        </div>
     </footer>
+    <script src=" script.js "></script>
 
 </body>
 

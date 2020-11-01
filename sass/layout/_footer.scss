@@ -1,0 +1,21 @@
+    footer {
+        width: 100%;
+        background-color: $header_footer_color;
+    }
+    
+    .footer_leaf_icon {
+        width: 40px;
+        height: 40px;
+        padding: 2%;
+        .leaf {
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+            box-shadow: 0.7px 0.9px 5px 1.5px darkgreen;
+            transition: all 300ms ease-in-out;
+            transform: scale(1);
+            &:hover {
+                transform: scale(1.5);
+            }
+        }
+    }
