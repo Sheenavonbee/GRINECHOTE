@@ -1,0 +1,14 @@
+.parallaxe_cow {
+    background-image: url(../images/mooooh.jpg);
+    @include parallaxe
+}
+
+.parallaxe_crunch {
+    background-image: url(../images/crunch_2.jpg);
+    @include parallaxe
+}
+
+.parallaxe_bzzz {
+    background-image: url(../images/bzzz.jpg);
+    @include parallaxe
+}

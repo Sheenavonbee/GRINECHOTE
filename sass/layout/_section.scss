@@ -1,0 +1,10 @@
+            .cosmetics,
+            .house_cleaning,
+            .contact {
+                @include section;
+            }
+            
+            .cosmetics,
+            .house_cleaning {
+                margin-bottom: 5%;
+            }
