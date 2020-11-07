@@ -1,3 +1,7 @@
+.parallaxe_container {
+    opacity: 0.7;
+}
+
 .parallaxe_cow {
     background-image: url(../images/mooooh.jpg);
     @include parallaxe
