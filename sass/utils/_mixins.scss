@@ -1,17 +1,22 @@
-                        @mixin section {
-                            background: linear-gradient(45deg, $backgroundcolor, white);
-                            width: 70%;
-                            margin: auto;
-                            border: 3px solid $font_color;
-                            border-radius: 20px;
-                            position: relative;
-                            opacity: 1.0;
-                        }
-                        
-                        @mixin parallaxe {
-                            height: 100%;
-                            background-attachment: fixed;
-                            background-position: center;
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                        }
+                            @mixin section {
+                                background: linear-gradient(45deg, $backgroundcolor, white);
+                                width: 92%;
+                                margin: auto;
+                                border: 3px solid $font_color;
+                                border-radius: 20px;
+                                position: relative;
+                            }
+                            
+                            @mixin parallaxe {
+                                height: 100%;
+                                background-attachment: fixed;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                            }
+                            
+                            @mixin wrapper {
+                                width: 85%;
+                                margin: auto;
+                                background-color: rgba(255, 255, 255, 0.363);
+                            }

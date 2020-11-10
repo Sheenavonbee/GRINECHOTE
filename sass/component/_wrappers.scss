@@ -1,10 +1,12 @@
 .cosmetics_wrapper {
     padding-top: 25%;
     padding-bottom: 15%;
+    @include wrapper;
 }
 
 .house_cleaning_wrapper,
 .contact_wrapper {
     padding-top: 15%;
     padding-bottom: 8%;
+    @include wrapper;
 }

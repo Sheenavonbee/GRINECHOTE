@@ -1,10 +1,10 @@
-            .cosmetics,
-            .house_cleaning,
-            .contact {
-                @include section;
-            }
-            
-            .cosmetics,
-            .house_cleaning {
-                padding: 3%;
-            }
+.cosmetics,
+.house_cleaning,
+.contact {
+    @include section;
+}
+
+.cosmetics,
+.house_cleaning {
+    padding: 3%;
+}
