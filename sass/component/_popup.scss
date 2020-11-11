@@ -20,3 +20,12 @@
         .about_me_modal {
             color: black;
         }
+        
+        @media screen and (max-width:480px) {
+            .trigger_modal {
+                max-width: 60%;
+            }
+            .about_me_modal {
+                font-weight: normal;
+            }
+        }

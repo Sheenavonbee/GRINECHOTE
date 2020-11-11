@@ -68,5 +68,27 @@
             font-size: 1.3em;
             color: black;
             text-align: right;
-            margin: 5% 10%;
+            margin-top: 5%;
+            margin-left: 20%;
+        }
+        
+        @media screen and (max-width:480px) {
+            h1 {
+                font-size: 1.5em;
+            }
+            .header_nav {
+                font-size: 0.9em;
+                margin: 6% 0;
+                text-align: left;
+            }
+            li {
+                display: block;
+            }
+            .nav {
+                padding-left: 0;
+            }
+            .introduction {
+                margin-right: 0;
+                padding-right: 0;
+            }
         }

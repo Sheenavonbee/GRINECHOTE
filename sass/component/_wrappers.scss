@@ -10,3 +10,9 @@
     padding-bottom: 8%;
     @include wrapper;
 }
+
+@media screen and (max-width: 480px) {
+    .cosmetics_wrapper {
+        padding-top: 50%;
+    }
+}
