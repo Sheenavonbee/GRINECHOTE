@@ -1,12 +1,10 @@
-form {
-    width: 40%;
-    height: 12%;
-}
-
-.form_title {
-    margin: 0;
-}
-
-.dear_grinechote {
-    padding: 3%;
-}
+    .form_inputs {
+        margin: 0;
+    }
+    
+    .form_title {
+        margin: 0;
+        &::before {
+            content: "\273F";
+        }
+    }
