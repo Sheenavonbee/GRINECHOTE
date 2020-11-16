@@ -1,10 +1,21 @@
-.btn {
-    width: 25%;
-    color: $font_color;
-    font-size: 1.5em;
-    font-weight: bold;
-    border: 1px solid $font_color;
-    border-radius: 5px;
-    background-color: $header_footer_color;
-    padding: 4%;
-}
+        .btn {
+            width: 35%;
+            font-size: 1em;
+            font-weight: bold;
+            border: 2px solid $font_color;
+            border-radius: 15px;
+            background-color: $header_footer_color;
+            padding: 3%;
+            color: $font_color;
+            margin-left: 15%;
+            cursor: pointer;
+            transform: scale(1);
+            &:hover {
+                transform: scale(1.30);
+                transition: all 400ms ease-out;
+                text-shadow: 2px 2px 1px rgb(231, 153, 8), 0 0 1em rgb(233, 247, 112), 0 0 0.2em rgb(224, 238, 34);
+                border: solid 2px yellow;
+                box-shadow: 2px 2px 1px rgb(248, 232, 2), 0 0 1em rgb(233, 247, 112), 0 0 0.2em rgb(224, 238, 34);
+                ;
+            }
+        }

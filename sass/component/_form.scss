@@ -1,5 +1,20 @@
     .form_inputs {
         margin: 0;
+        line-height: 1.5em;
+        .name_input,
+        .email_input {
+            width: 35%;
+            padding: 1%;
+            border-radius: 15px;
+            border: solid 2px $font_color;
+        }
+    }
+    
+    .text_input {
+        width: 65%;
+        padding: 2%;
+        border: solid 2px $font_color;
+        border-radius: 15px;
     }
     
     .form_title {
