@@ -1,19 +1,24 @@
-        .cosmetics_title,
-        .vericline_title {
-            &::before {
-                content: "\273F";
-            }
-        }
-        
-        .warning {
-            color: $font_color;
-        }
-        
-        li {
-            list-style: none;
-        }
-        
-        .list_style {
-            font-size: 0.9em;
-            color: $font_color;
-        }
+.cosmetics_title,
+.house_cleaning_title {
+    text-decoration: underline;
+    &::before {
+        content: "\273F";
+    }
+}
+
+.warning {
+    color: $font_color;
+}
+
+li {
+    list-style: none;
+}
+
+.list_style {
+    font-size: 0.9em;
+    color: $font_color;
+}
+
+h3 {
+    text-decoration: underline;
+}
