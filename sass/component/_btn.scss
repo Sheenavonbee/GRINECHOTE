@@ -30,3 +30,16 @@
         text-shadow: 2px 2px 1px rgb(231, 153, 8), 0 0 1em rgb(233, 247, 112), 0 0 0.2em rgb(224, 238, 34);
     }
 }
+
+.popup_btn {
+    background-color: $header_footer_color;
+    border: 0;
+    color: $font_color;
+    cursor: pointer;
+    font-size: 1.1em;
+    &:hover {
+        text-shadow: 2px 2px 1px rgb(231, 153, 8), 0 0 1em rgb(233, 247, 112), 0 0 0.2em rgb(224, 238, 34);
+    }
+}
+
+.closing_btn {}

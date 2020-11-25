@@ -1,12 +1,20 @@
         .sticky_header {
+            display: flex;
             width: 100%;
             background-color: $header_footer_color;
-            display: flex;
             position: fixed;
             top: 0;
             left: 0;
             right: 0;
             z-index: 3;
+        }
+        
+        .header_nav {
+            width: 50%;
+            font-size: 1.3em;
+            color: black;
+            text-align: right;
+            padding-top: 5%;
         }
         
         .nav_thumbnail {
@@ -49,13 +57,6 @@
             display: inline;
         }
         
-        .introduction {
-            display: flex;
-            flex-direction: column;
-            padding: 2%;
-            margin: auto 5%;
-        }
-        
         h1 {
             color: $font_color;
             font-size: 2.8em;
@@ -66,18 +67,15 @@
             }
         }
         
-        .header_intro {
-            margin-top: 0;
-            font-family: fantasy;
-            font-weight: 700;
+        .header_title {
+            width: 40%;
+            padding: 3%;
         }
         
-        .header_nav {
-            font-size: 1.3em;
-            color: black;
-            text-align: right;
-            margin-top: 5%;
-            margin-left: 20%;
+        .header_intro {
+            font-family: fantasy;
+            font-size: 1.2em;
+            font-weight: 700;
         }
         
         @media screen and (max-width:480px) {
@@ -94,9 +92,5 @@
             }
             .nav {
                 padding-left: 0;
-            }
-            .introduction {
-                margin-right: 0;
-                padding-right: 0;
             }
         }
