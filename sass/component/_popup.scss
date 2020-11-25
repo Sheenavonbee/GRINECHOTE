@@ -6,13 +6,27 @@
     z-index: 10;
     &:target {
         visibility: visible;
-        background-color: rgba($color: #509c50, $alpha: 0.7);
+        background-color: rgba($color: #989c98, $alpha: 0.7);
+    }
+}
+
+.popup_closing {
+    width: 30%;
+    margin: 0;
+    .closing_btn {
+        color: $font_color;
+        font-size: 1.6em;
+        font-weight: 800;
+        &::before {
+            content: "\273F";
+        }
     }
 }
 
 .popup_image {
     width: 60%;
     margin: auto;
+    margin: 3% 25%;
     .grafik {
         border-radius: 15px;
         margin: auto;

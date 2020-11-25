@@ -14,7 +14,7 @@
             font-size: 1.3em;
             color: black;
             text-align: right;
-            padding-top: 5%;
+            padding: 5% 2%;
         }
         
         .nav_thumbnail {
@@ -68,14 +68,14 @@
         }
         
         .header_title {
-            width: 40%;
+            width: 50%;
             padding: 3%;
         }
         
         .header_intro {
-            font-family: fantasy;
-            font-size: 1.2em;
-            font-weight: 700;
+            font-family: cursive;
+            font-size: 1.4em;
+            margin: 0;
         }
         
         @media screen and (max-width:480px) {
