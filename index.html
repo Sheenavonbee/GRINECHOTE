@@ -22,42 +22,44 @@
 
         <nav role="navigation" class="header_nav ">
             <ul class="nav ">
-                <a class="nav_thumbnail " href="#bioutifoule ">
+                <a aria-label="Lire la section cosmétique Bioutifoule" class="nav_thumbnail " href="#bioutifoule ">
                     <li class="bioutifoule ">
                         <span class="star1 ">&#x2728;</span> Bioutifoule</li>
                 </a>
-                <a class="nav_thumbnail " href="#vericline ">
+                <a aria-label="Lire la section produits ménagers Vericline" class=" nav_thumbnail " href="#vericline ">
                     <li class=" vericline ">
                         <span class="star2 ">&#x2728;</span>Vericline</li>
                 </a>
-                <a class="nav_thumbnail " href="#contact ">
+                <a aria-label="Formulaire de contact" class="nav_thumbnail " href="#contact ">
                     <li class=" contact_form ">
                         <span class="star3 ">&#x2728;</span>Contact</li>
                 </a>
             </ul>
         </nav>
     </header>
-    <main role="main">
+    <main role="main ">
         <div class="parallaxe_cow ">
 
-            <aside role="presentation" id="popup" class="popup">
-                <div class="popup_image">
-                    <div class="popup_closing">
-                        <a class="closing_btn" href="#">Fermer</a>
+            <aside role="presentation " id="popup " class="popup ">
+                <div class="popup_image " aria-labelledby="Image pop-up">
+                    <div class="popup_closing ">
+                        <a aria-label="Fermer le pop-up" class="closing_btn " href="# ">Fermer</a>
                     </div>
-                    <img class="grafik" src=" ./images/pop_up.jpg " alt="grafik picture " />
+                    <img class="grafik " src=" ./images/pop_up.jpg " alt="Phrase d'introduction: Elle s'appelle Valérie, elle est née le même jour que Jimi 
+                    Hendrix mais en 78 (trop classe), elle adore le yoga et la course à pieds, elle trouve les binturongs trop choux. Graphique: Maman/Épouse 33.2%,
+                     apprentie Webdev 21.3%, barjo de musique 26.5%, clown 8.7%, Bénévole au café suspendu 10.3% " />
                 </div>
             </aside>
 
 
-            <div id="bioutifoule" class="cosmetics_wrapper ">
+            <div class="cosmetics_wrapper ">
+                <a name="bioutifoule"></a>
+                <h2 class=" popup_h2 ">Mais d 'où elle sort<a aria-label="Ouverture du pop-up " class="popup_opening " href="#popup "> celle là ?</a></h2>
 
-                <h2 class=" popup_h2 ">Mais d 'où elle sort<a class="popup_opening " href="#popup "> celle là ?</a></h2>
-
-                <section role="region" class="cosmetics ">
-                    <header role="presentation" cosmetics_header ">
-                        <h2 class="cosmetics_title ">Bioutifoule</h2>
-                        <p>"Fabriquer mon dentifrice? N 'importe quoi. "</p>
+                <section role="region " class="cosmetics ">
+                    <header role="presentation " cosmetics_header ">
+                    <h2 class="cosmetics_title ">Bioutifoule</h2>
+                    <p>"Fabriquer mon dentifrice? N 'importe quoi. "</p>
                     </header>
                     </br>
                     <div class=" Démaquillant ">
@@ -65,8 +67,8 @@
                         <p>Pour des fesses de bébé aussi douces que les joues de maman, et inversement proportionnel.
                             <br/> Il te faut:
                             <ul>
-                                <li>
-                                    <li><span class="list_style ">&#9734</span> Un flacon en verre fermé et desinfecté (à l 'eau bouillante)</li>
+                            
+                        <li><span class="list_style ">&#9734</span> Un flacon en verre fermé et desinfecté (à l 'eau bouillante)</li>
                         <li><span class="list_style ">&#9734</span> 250g d'eau de chaux</li>
                         <li><span class="list_style ">&#9734</span> 250g d'huile végétale de ton choix (olive, pépins de raisin,
                             <br/>amande douce...) </li>
@@ -132,7 +134,7 @@
 
                                     </li>
                                 </ul>
-                                T'y crois pas? (J'te l'avais dit)
+                                T'y crois pas. (J'te l'avais dit)
                                 <br/>Fais bien gaffe à la composition de ton savon (ON T'A DIT: SANS HUILE DE PALME!),
                                 <br/> va me faire cette fichue vaisselle (et qu'ça saute), et admire la brillance et
                                 <br/>propreté de ces couverts...("HOoooo....! ")</p>
@@ -204,22 +206,22 @@
                             <span class="warning ">J'ADORE</span> recevoir du courrier!</p>
                         <form class="form_inputs ">
                             <p>
-                                <label for="name ">Ton prénom</label>
+                                <label for="name ">Ton nom</label>
                                 <br/>
-                                <input class="name_input " type=" text " id="name " name="user_name ">
+                                <input aria-label="Ton nom" class="name_input " type=" text " id="name " name="user_name ">
                                 <br/>
 
                                 <label for="mail ">Ton email</label>
                                 <br/>
-                                <input class="email_input " type="email " id="mail " name="user_mail ">
+                                <input aria-label="Ton email" class="email_input " type="email " id="mail " name="user_mail ">
                                 <br/>
                                 <label for="message ">Vide ton sac</label>
                                 <br/>
-                                <textarea id="message " name="user_message " class="text_input "></textarea>
+                                <textarea aria-label="Message à envoyer: Vide ton sac" id="message " name="user_message " class="text_input "></textarea>
                                 <br/>
                             </p>
                             <div class="button ">
-                                <button class="submit " type=" submit ">
+                                <button aria-label="Envoyer le message: Zooouuuu..." class="submit " type=" submit ">
                                         <div class="go ">Zoouu...!</div>
                                     </button>
                             </div>
@@ -234,7 +236,7 @@
 
     <footer role="button ">
         <div class="footer_leaf_icon ">
-            <a class="back_to_top " href="#top "><img class="leaf " src="./images/leaf.jpg " alt="dessin icone feuille "></a>
+            <a aria-label="Retour en haut de page" class="back_to_top " href="#top "><img class="leaf " src="./images/leaf.jpg " alt="dessin d'une feuille "></a>
         </div>
     </footer>
 
