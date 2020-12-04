@@ -1,24 +1,32 @@
-.cosmetics_title,
-.house_cleaning_title {
-    text-decoration: underline;
-    &::before {
-        content: "\273F";
+    .cosmetics_title,
+    .house_cleaning_title {
+        text-decoration: underline;
+        &::before {
+            content: "\273F";
+        }
     }
-}
-
-.warning {
-    color: $font_color;
-}
-
-li {
-    list-style: none;
-}
-
-.list_style {
-    font-size: 0.9em;
-    color: $font_color;
-}
-
-h3 {
-    text-decoration: underline;
-}
+    
+    .warning {
+        color: $font_color;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    .list_style {
+        font-size: 0.9em;
+        color: $font_color;
+    }
+    
+    h3 {
+        text-decoration: underline;
+    }
+    
+    @media screen and (max-width:480px) {
+        .popup_h2 {
+            margin-top: 0;
+            padding-top: 0;
+            font-size: 1.2em;
+        }
+    }

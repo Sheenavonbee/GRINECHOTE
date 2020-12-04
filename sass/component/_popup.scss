@@ -1,48 +1,62 @@
-.popup {
-    width: 100%;
-    margin: auto;
-    visibility: hidden;
-    position: fixed;
-    z-index: 10;
-    &:target {
-        visibility: visible;
-        height: 100%;
-        background-color: rgba($color: #989c98, $alpha: 0.8);
-    }
-}
-
-.popup_closing {
-    width: 30%;
-    margin: 0;
-    .closing_btn {
-        color: $font_color;
-        font-size: 1.6em;
-        font-weight: 800;
-        &::before {
-            content: "\273F";
-        }
-    }
-}
-
-.popup_image {
-    width: 60%;
-    margin: auto;
-    margin: 1% auto;
-    .grafik {
-        border-radius: 15px;
-        margin: auto;
-    }
-}
-
-.popup_h2 {
-    padding-top: 18%;
-    margin-left: 4%;
-    &::before {
-        content: "\273F";
-    }
-}
-
-.popup_opening {
-    color: black;
-    text-decoration: black underline;
-}
+                        .popup {
+                            width: 100%;
+                            margin: auto;
+                            visibility: hidden;
+                            position: fixed;
+                            z-index: 10;
+                            &:target {
+                                visibility: visible;
+                                height: 100%;
+                                background-color: rgba($color: #989c98, $alpha: 0.8);
+                            }
+                        }
+                        
+                        .popup_closing {
+                            width: 30%;
+                            margin-top: 10%;
+                            .closing_btn {
+                                color: $font_color;
+                                font-size: 1.6em;
+                                font-weight: 800;
+                                &::before {
+                                    content: "\273F";
+                                }
+                            }
+                        }
+                        
+                        .popup_image {
+                            width: 40%;
+                            margin: auto;
+                            .grafik {
+                                border: 2px solid $font_color;
+                                border-radius: 15px;
+                                margin: auto;
+                            }
+                        }
+                        
+                        .popup_h2 {
+                            padding-top: 18%;
+                            margin-left: 4%;
+                            &::before {
+                                content: "\273F";
+                            }
+                        }
+                        
+                        .popup_opening {
+                            color: black;
+                            text-decoration: black underline;
+                        }
+                        
+                        @media screen and (max-width:480px) {
+                            .popup_image {
+                                width: 90%;
+                                max-width: 400px;
+                                .grafik {
+                                    width: 100%;
+                                    max-width: 380px;
+                                }
+                            }
+                            .popup_closing {
+                                font-size: 0.8em;
+                            }
+                        }

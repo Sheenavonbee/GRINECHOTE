@@ -1,19 +1,27 @@
-.cosmetics,
-.house_cleaning,
-.contact {
-    @include section;
-}
-
-.cosmetics,
-.house_cleaning {
-    padding: 3%;
-}
-
-.contact {
-    display: flex;
-    flex-direction: row;
-    .dear_grinechote {
-        width: 80%;
+    .cosmetics,
+    .house_cleaning,
+    .contact {
+        @include section;
+    }
+    
+    .cosmetics,
+    .house_cleaning {
         padding: 3%;
     }
-}
+    
+    .contact {
+        display: flex;
+        flex-direction: row;
+        .dear_grinechote {
+            width: 80%;
+            padding: 3%;
+        }
+    }
+    
+    @media screen and (max-width:480px) {
+        .cosmetics,
+        .house_cleaning,
+        .contact {
+            font-size: 0.8em;
+        }
+    }
