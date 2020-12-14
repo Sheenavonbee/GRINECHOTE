@@ -1,26 +1,38 @@
-    .form_inputs {
-        margin: 0;
-        line-height: 1.7em;
-        .name_input,
-        .email_input {
-            width: 35%;
-            padding: 1%;
-            border-radius: 15px;
-            border: solid 2px $font_color;
-        }
-    }
-    
-    .text_input {
-        width: 50%;
-        padding: 1.5%;
-        border: solid 2px $font_color;
-        border-radius: 15px;
-    }
-    
-    .form_title {
-        margin: 0;
-        text-decoration: underline;
-        &::before {
-            content: "\273F";
-        }
-    }
+                            .form_inputs {
+                                display: flex;
+                                flex-direction: column;
+                                margin: 0;
+                                line-height: 1.7em;
+                                .name_input,
+                                .email_input {
+                                    width: 70%;
+                                    padding: 1%;
+                                    border-radius: 15px;
+                                    border: solid 2px $font_color;
+                                }
+                            }
+                            
+                            .text_input {
+                                width: 100%;
+                                padding: 1.5%;
+                                border: solid 2px $font_color;
+                                border-radius: 15px;
+                            }
+                            
+                            .form_title {
+                                margin: 0;
+                                text-decoration: underline;
+                                &::before {
+                                    content: "\273F";
+                                }
+                            }
+                            
+                            @media screen and (max-width:540px) {
+                                .text_input {
+                                    width: 90%;
+                                }
+                                .inputs,
+                                .form_intro {
+                                    margin: 0;
+                                }
+                            }

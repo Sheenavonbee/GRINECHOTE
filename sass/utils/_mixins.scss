@@ -5,6 +5,7 @@
                                 border: 3px solid $font_color;
                                 border-radius: 20px;
                                 position: relative;
+                                scroll-behavior: smooth;
                             }
                             
                             @mixin parallaxe {
@@ -13,6 +14,7 @@
                                 background-position: center;
                                 background-repeat: no-repeat;
                                 background-size: cover;
+                                scroll-behavior: smooth;
                             }
                             
                             @mixin wrapper {
