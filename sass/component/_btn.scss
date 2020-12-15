@@ -42,3 +42,9 @@
                 text-shadow: 2px 2px 1px rgb(231, 153, 8), 0 0 1em rgb(233, 247, 112), 0 0 0.2em rgb(224, 238, 34);
             }
         }
+        
+        @media screen and (max-width: 540px) {
+            .button {
+                width: 90%;
+            }
+        }

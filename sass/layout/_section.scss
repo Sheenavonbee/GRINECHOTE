@@ -1,50 +1,60 @@
-            .cosmetics,
-            .house_cleaning,
-            .contact {
-                @include section;
-            }
-            
-            .cosmetics,
-            .house_cleaning {
-                padding: 3%;
-            }
-            
-            .contact {
-                display: flex;
-                .dear_grinechote {
-                    display: flex;
-                    width: 100%;
-                    padding: 3%;
-                }
-            }
-            
-            .contact_form {
-                width: 50%;
-            }
-            
-            .postcard {
-                width: 50%;
-                .postcard_sketch {
-                    float: right;
-                    transform: rotate(27deg);
-                    border: 3px burlywood solid;
-                    border-radius: 15%;
-                    box-shadow: 1px 1px 2px 3px rgba($color: #be9579, $alpha: 0.3);
-                    margin: 10%;
-                }
-            }
-            
-            @media screen and (max-width:540px) {
-                .cosmetics,
-                .house_cleaning,
-                .contact {
-                    font-size: 0.8em;
-                }
-                .contact_form {
-                    width: 90%;
-                    position: absolute;
-                }
-                .postcard_sketch {
-                    visibility: hidden;
-                }
-            }
+                        .cosmetics,
+                        .house_cleaning,
+                        .contact {
+                            @include section;
+                        }
+                        
+                        .cosmetics,
+                        .house_cleaning {
+                            padding: 3%;
+                        }
+                        
+                        .contact {
+                            display: flex;
+                            .dear_grinechote {
+                                display: flex;
+                                width: 100%;
+                                padding: 3%;
+                            }
+                        }
+                        
+                        .form {
+                            width: 50%;
+                        }
+                        
+                        .postcard {
+                            width: 50%;
+                            .postcard_sketch {
+                                float: right;
+                                transform: rotate(27deg);
+                                border: 3px burlywood solid;
+                                border-radius: 15%;
+                                box-shadow: 1px 1px 2px 3px rgba($color: #be9579, $alpha: 0.3);
+                                margin: 10%;
+                            }
+                        }
+                        
+                        @media screen and (max-width:768px) {
+                            .postcard_sketch {
+                                width: 100%;
+                                max-width: 200px;
+                            }
+                        }
+                        
+                        @media screen and (max-width: 540px) {
+                            .cosmetics,
+                            .house_cleaning,
+                            .contact {
+                                font-size: 0.8em;
+                            }
+                            .form {
+                                width: 100%;
+                            }
+                            .postcard {
+                                visibility: hidden;
+                                position: absolute;
+                            }
+                            .recipe {
+                                padding-inline-start: 6%;
+                            }
+                        }
