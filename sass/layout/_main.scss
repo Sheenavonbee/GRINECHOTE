@@ -23,10 +23,8 @@
         text-decoration: underline;
     }
     
-    @media screen and (max-width:480px) {
-        .popup_h2 {
-            margin-top: 0;
-            padding-top: 0;
-            font-size: 1.3em;
+    @media screen and (max-width:540px) {
+        .recipe {
+            padding-left: 6%;
         }
     }
