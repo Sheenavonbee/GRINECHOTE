@@ -2,7 +2,7 @@
 ## Mon premier projet personnel
 ***
 Ma formation __Openclassrooms__ terminée, j'ai cherché des moyens de pratiquer et d'aprofondir mes connaissances. 
-Ce projet est un recueil de recettes de produits ménagers et cosmétiques zéro-déchet dont je me sers au quotidien, et qui constitue un 
+Ce projet est un recueil de recettes de produits ménagers et cosmétiques zéro-déchets dont je me sers au quotidien, et qui constitue un 
 pretexte parfait à la création d'une gitpage!
 
 # Un projet en cours...
